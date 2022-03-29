@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Tailbit - A Simple But beautiful Component Library for Tailwind CSS using React and Typescript",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "webpack serve --hot --mode development",
     "build": "webpack --mode production",
