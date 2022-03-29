@@ -1,0 +1,31 @@
+{
+  "name": "tailbit",
+  "version": "0.0.1",
+  "description": "Tailbit - A Simple But beautiful Component Library for Tailwind CSS using React and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManiruzzamanAkash/tailbit.git"
+  },
+  "keywords": [
+    "tailbit",
+    "tailwind",
+    "components",
+    "react",
+    "components",
+    "tailwind",
+    "css",
+    "components",
+    "typescript",
+    "component"
+  ],
+  "author": "Maniruzzaman Akash <manirujjamanakash@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManiruzzamanAkash/tailbit/issues"
+  },
+  "homepage": "https://github.com/ManiruzzamanAkash/tailbit#readme"
+}

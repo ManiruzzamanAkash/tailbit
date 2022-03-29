@@ -1,0 +1,46 @@
+nbproject
+node_modules
+secret.json
+log.txt
+
+# Compiled output #
+###################
+dist/*
+/build
+/tmp
+
+# Dependencies #
+###################
+/node_modules
+/bower_components
+
+# Misc #
+###################
+.idea
+config.codekit
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Storybook build folder #
+########################
+storybook-static
