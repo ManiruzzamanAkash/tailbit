@@ -38,3 +38,7 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
+
+# Local Test file before deploying #
+####################################
+/localtest

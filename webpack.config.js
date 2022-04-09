@@ -4,7 +4,7 @@ const { DefinePlugin } = require('webpack');
 
 const config = {
     entry: {
-        app: './src/index.js',
+        app: './src/index.tsx',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -60,10 +60,7 @@ const config = {
         ],
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        alias: {
-            'react-dom': '@hot-loader/react-dom',
-        },
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
     devServer: {
         static: {
@@ -77,18 +74,18 @@ const config = {
                 'X-Requested-With, content-type, Authorization',
         },
     },
-    optimization: {
-        runtimeChunk: 'single',
-        splitChunks: {
-            cacheGroups: {
-                vendor: {
-                    test: /[\\/]node_modules[\\/]/,
-                    name: 'vendors',
-                    chunks: 'all',
-                },
-            },
-        },
-    },
+    // optimization: {
+    //     runtimeChunk: 'single',
+    //     splitChunks: {
+    //         cacheGroups: {
+    //             vendor: {
+    //                 test: /[\\/]node_modules[\\/]/,
+    //                 name: 'vendors',
+    //                 chunks: 'all',
+    //             },
+    //         },
+    //     },
+    // },
     plugins: [
         new MiniCssExtractPlugin(),
         new DefinePlugin({
