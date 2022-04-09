@@ -10,10 +10,6 @@ const config = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
     },
-    externals: {
-        '@wordpress/api-fetch': ['wp', 'apiFetch'],
-        '@wordpress/i18n': ['wp', 'i18n'],
-    },
     module: {
         rules: [
             {

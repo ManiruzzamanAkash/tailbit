@@ -5,8 +5,6 @@ log.txt
 
 # Compiled output #
 ###################
-dist/*
-/build
 /tmp
 
 # Dependencies #
@@ -40,7 +38,3 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
-
-# Storybook build folder #
-########################
-storybook-static
