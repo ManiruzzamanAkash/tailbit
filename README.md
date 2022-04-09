@@ -28,6 +28,9 @@ It will open your browser window the documentation of our library at http://loca
 
 
 ## Changelog
+`v0.0.4` - **9 April 2022**
+    - [Fix] Fixed tailwind style was not loading
+
 `v0.0.3` - **9 April 2022**
     - [Fix] Fixed a `package.json` peerDependency issue
 

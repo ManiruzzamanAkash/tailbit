@@ -1,6 +1,6 @@
 {
   "name": "tailbit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Tailbit - A Simple But beautiful Component Library for Tailwind CSS using React and Typescript",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
