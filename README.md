@@ -1,6 +1,10 @@
 # TailBit
 TailBit - A Simple But beautiful Component Library for Tailwind CSS using React and Typescript
 
+**Component Documentation** - https://maniruzzamanakash.github.io/tailbit/storybook-static/
+
+**NPM Directory** - https://www.npmjs.com/package/tailbit
+
 -----
 
 ## Installation
